@@ -72,7 +72,7 @@ DARG/
 └── README.md               # Project README
 ```
 
-To dynamically generate new data points by interpolating their internal reasoning structures, please follow the insructions in each directory with corresponding dataset name
+To dynamically generate new data points by interpolating their internal reasoning structures, please follow the instructions in each directory corresponding to the dataset name.
 
 ## 📞 Contact
 
