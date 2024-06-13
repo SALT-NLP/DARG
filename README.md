@@ -1,5 +1,5 @@
 # 🌟 DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph 🌟
-![Project Banner](https://via.placeholder.com/1200x300.png?text=ML+Project+Banner)
+![Project Banner](https://github.com/SALT-NLP/DARG/blob/main/assets/framework.png)
 
 🚀 This is the official code for the paper titled [DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph](https://arxiv.org). This project aims to dynamically augment current LLM benchmarks through internal reasoning graph interpolation with fine-grained complexity control, addressing issues such as data contamination and the benchmarks' inability to adapt to LLMs' ever-evolving capabilities.
 
@@ -51,10 +51,10 @@ These variables ensure that the Langchain library can properly authenticate with
 ### 📊 Original Benchmarks
 We use the following 4 widely-used benchmarks 
 
-- **GSM8K**: 
-- **Bias Benchmark for QA (BBQ)**: 
-- **BIG-Bench Hard (BBH) Navigate**: 
-- **BIG-Bench Hard (BBH) Dyck Language**: 
+- **[GSM8K](https://github.com/openai/grade-school-math)**: One of the most widely-used math reasoning dataset which contains high-quality, linguistically diverse school math word problems.
+- **[Bias Benchmark for QA (BBQ)](https://huggingface.co/datasets/heegyu/bbq)**:A widelyused dataset that highlight attested social biases against people belonging to protected classes along nine social dimensions.
+- **[BIG-Bench Hard (BBH) Navigate](https://huggingface.co/datasets/lukaemon/bbh/viewer/navigate)**: A spatial reasoning dataset which involves giving the LLM navigation steps to determine if the agent returns to the starting point.
+- **[BIG-Bench Hard (BBH) Dyck Language](https://huggingface.co/datasets/lukaemon/bbh/viewer/dyck_languages)**: A symbolic reasoning dataset which requires the model to predict the sequence of closing parentheses for a Dyck-4 word missing its last few closing parentheses.
 
 
 ## 📁 Directory Structure
