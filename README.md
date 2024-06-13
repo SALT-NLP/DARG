@@ -49,12 +49,12 @@ These variables ensure that the Langchain library can properly authenticate with
 
 
 ### 📊 Original Benchmarks
-We use the following 4 widely-used benchmarks 
+We use the following 4 widely-used benchmarks on 4 diverse reasoning domains 
 
-- **[GSM8K](https://github.com/openai/grade-school-math)**: One of the most widely-used math reasoning dataset which contains high-quality, linguistically diverse school math word problems.
-- **[Bias Benchmark for QA (BBQ)](https://huggingface.co/datasets/heegyu/bbq)**:A widelyused dataset that highlight attested social biases against people belonging to protected classes along nine social dimensions.
-- **[BIG-Bench Hard (BBH) Navigate](https://huggingface.co/datasets/lukaemon/bbh/viewer/navigate)**: A spatial reasoning dataset which involves giving the LLM navigation steps to determine if the agent returns to the starting point.
-- **[BIG-Bench Hard (BBH) Dyck Language](https://huggingface.co/datasets/lukaemon/bbh/viewer/dyck_languages)**: A symbolic reasoning dataset which requires the model to predict the sequence of closing parentheses for a Dyck-4 word missing its last few closing parentheses.
+- **Math Reasoning-[GSM8K](https://github.com/openai/grade-school-math)**: One of the most widely-used math reasoning dataset which contains high-quality, linguistically diverse school math word problems.
+- **Social Reasoning-[Bias Benchmark for QA (BBQ)](https://huggingface.co/datasets/heegyu/bbq)**:A widely-used dataset that highlight attested social biases against people belonging to protected classes along nine social dimensions.
+- **Spatial Reasoning-[BIG-Bench Hard (BBH) Navigate](https://huggingface.co/datasets/lukaemon/bbh/viewer/navigate)**: A spatial reasoning dataset which involves giving the LLM navigation steps to determine if the agent returns to the starting point.
+- **Symbolic Reasoning-[BIG-Bench Hard (BBH) Dyck Language](https://huggingface.co/datasets/lukaemon/bbh/viewer/dyck_languages)**: A symbolic reasoning dataset which requires the model to predict the sequence of closing parentheses for a Dyck-4 word missing its last few closing parentheses.
 
 
 ## 📁 Directory Structure
@@ -84,5 +84,10 @@ For inquiries regarding the framework or the paper, please contact:
 If you find our work useful or it contributes to your research, please cite our paper:
 
 ```bibtex
-@inproceedings{TODO}
+@article{zhang2024darg,
+  title={DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph},
+  author={Zhang, Zhehao and Chen, Jiaao and Yang, Diyi},
+  journal={arXiv preprint arXiv:XXX},
+  year={2024}
+}
 ```
