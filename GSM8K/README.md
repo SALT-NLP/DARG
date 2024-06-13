@@ -1,6 +1,6 @@
 # GSM8K Reasoning Graph Construction and Graph-to-Text Decoding
 
-This repository provides the tools for constructing reasoning/computational graphs from the GSM8K dataset and converting these graphs back to text using a code-augmented Large Language Model (LLM) agent.
+This directory provides the tools for constructing reasoning/computational graphs from the GSM8K dataset and converting these graphs back to text using a code-augmented Large Language Model (LLM) agent.
 
 ## 1. Graph Construction
 

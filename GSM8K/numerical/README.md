@@ -1,4 +1,4 @@
-# Reasoning Graph Numerical Compleity Increase
+# Reasoning Graph Numerical Complexity Increase
 
 This directory contains the code to increase the numerical complexity of the reasoning graphs generated from the previous step. Specifically, this process modifes the original reasoning graph's nodes' values by sampling new values to achieve the desired numerical complexity increase. The numerical complexity  is defined as the number of unit additions in the calculations.
 
