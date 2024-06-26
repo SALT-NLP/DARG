@@ -84,10 +84,13 @@ For inquiries regarding the framework or the paper, please contact:
 If you find our work useful or it contributes to your research, please cite our paper:
 
 ```bibtex
-@article{zhang2024darg,
-  title={DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph},
-  author={Zhang, Zhehao and Chen, Jiaao and Yang, Diyi},
-  journal={arXiv preprint arXiv:XXX},
-  year={2024}
+@misc{zhang2024dargdynamicevaluationlarge,
+      title={DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph}, 
+      author={Zhehao Zhang and Jiaao Chen and Diyi Yang},
+      year={2024},
+      eprint={2406.17271},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+      url={https://arxiv.org/abs/2406.17271}, 
 }
 ```
