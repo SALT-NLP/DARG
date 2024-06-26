@@ -1,7 +1,7 @@
 # 🌟 DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph 🌟
 ![Project Banner](https://github.com/SALT-NLP/DARG/blob/main/assets/framework.png)
 
-🚀 This is the official code for the paper titled [DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph](https://arxiv.org). This project aims to dynamically augment current LLM benchmarks through internal reasoning graph interpolation with fine-grained complexity control, addressing issues such as data contamination and the benchmarks' inability to adapt to LLMs' ever-evolving capabilities.
+🚀 This is the official code for the paper titled [DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph](https://arxiv.org/abs/2406.17271). This project aims to dynamically augment current LLM benchmarks through internal reasoning graph interpolation with fine-grained complexity control, addressing issues such as data contamination and the benchmarks' inability to adapt to LLMs' ever-evolving capabilities.
 
 Authors: [Zhehao Zhang](https://zzh-sjtu.github.io/zhehaozhang.github.io/), [Jiaao Chen](https://cs.stanford.edu/people/jiaaoc/), [Diyi Yang](https://cs.stanford.edu/~diyiy/), 👩‍💼👨‍💼
 
